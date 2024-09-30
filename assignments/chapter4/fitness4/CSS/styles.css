@@ -1,0 +1,130 @@
+/* Resetting margins and paddings for all elements */
+body, header, nav, footer, main, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000; /* Background color for the body */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    display: block;
+}
+
+/* Header Styles */
+header {
+    width: 100%; /* Make header full width */
+    display: flex; /* Use flexbox for header layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    padding: 1em 2em; /* Add padding for spacing */
+}
+
+/* Logo Styles */
+header a img {
+    width: 200px; /* Increase the size of the logo */
+    float: left; /* Push logo to the left */
+}
+
+/* Navigation Styles */
+nav {
+    margin-left: auto; /* Push navigation to the right */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    text-align: right; /* Align text to the right */
+}
+
+nav li {
+    display: inline-block; /* Horizontal layout */
+    font-size: 1.75em; /* Font size for links */
+    font-family: Verdana, Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Bold text */
+}
+
+nav li a {
+    display: block; /* Block display for better click area */
+    color: #fff; /* Text color */
+    text-align: center; /* Center text */
+    padding: .5em 1em; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main Content Styles */
+main {
+    clear: both; /* Clear floats */
+    background-color: #fff; /* Background color for main */
+    padding: 2%; /* Padding for main content */
+    font-size: 1.25em; /* Font size for main content */
+}
+
+/* Action class for emphasized text */
+.action {
+    font-size: 1.353em; /* Font size */
+    color: #660; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+/* Styles for individual sections */
+#weights, #cardio, #training {
+    width: 29%; /* Width for each section */
+    float: left; /* Float sections to the left */
+    margin: 0 2%; /* Margin for spacing */
+}
+
+/* Styles for exercises section */
+#exercises {
+    clear: left; /* Clear floats */
+    border-top: 1px solid #000; /* Top border */
+    border-bottom: 1px solid #000; /* Bottom border */
+    background-color: #f2f2f2; /* Background color */
+    padding: 1% 2%; /* Padding */
+}
+
+#exercises dt {
+    font-weight: bold; /* Bold definition terms */
+}
+
+#exercises dd {
+    padding: .5% 1% 2% 0; /* Padding for definitions */
+}
+
+/* External link styles */
+.external-link {
+    color: #660; /* Color for external links */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center; /* Center text */
+}
+
+#contact a {
+    color: #660; /* Color for contact links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Map styles */
+.map {
+    border: 8px solid #000; /* Border for maps */
+}
+
+/* Footer styles */
+footer p {
+    font-size: .75em; /* Font size for footer */
+    text-align: center; /* Center footer text */
+    color: #fff; /* Footer text color */
+    padding: 0 1em; /* Padding */
+}
+
+footer p a {
+    color: #fff; /* Footer link color */
+    text-decoration: none; /* Remove underline */
+}
