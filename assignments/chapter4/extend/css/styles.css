@@ -1,0 +1,119 @@
+/*
+Author: Luke Rinas
+Date: 9/19/24
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and header content */
+body {
+    background-color: #d9d9d9;
+}
+
+header, footer {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+    padding: 2%;
+}
+
+main a {
+    color: #0000b3;
+    text-decoration: none;
+}
+
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#questions {
+    clear: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#questions {
+    clear: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+/* Orange */
+.orange-hex{
+	background-color: #eb7515
+}
+
+.orange-rgb{
+	background-color: rgb(235, 117, 21);
+}
+
+.orange-hsl{
+	background-color: hsl(27, 84%, 50%);
+}
+
+
+/* Purple */
+.purple-hex{
+	background-color: #9007ab;
+}
+
+.purple-rgb{
+	background-color: rgb(144, 7, 171);
+}
+
+.purple-hsl{
+	background-color: hsl(290, 92%, 35%);
+}
+
+
+/* Green */
+.green-hex{
+	background-color: #1ba62b;
+}
+
+.green-rgb{
+	background-color: rgb(27, 166, 43);
+}
+
+.green-hsl{
+	background-color: hsl(127, 72%, 38%);
+}
