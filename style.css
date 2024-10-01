@@ -41,6 +41,11 @@ main{
 	color: white;
 	font-family: cursive;
 
+.extras-image{
+	max-width: 25%;
+	height: auto;
+}
+
 #hobbies{
         width: 45%;
         float: right;
