@@ -1,20 +1,20 @@
-.jacques-francois-shadow-regular {
-    font-family: "Jacques Francois Shadow", serif;
+/* General styling */
+body {
+    background-color: #5598a0; 
+    font-family: 'Jacques Francois Shadow', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  body{
-	background-color: #00b0c4;
-}
-header{
-	text-align: center;
-	font-weight: bold;
-	color: #ffffff
 }
 
+/* Header styling */
+header {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Navigation bar styling */
 nav {
-	font-family:'Jacques Francois Shadow',Arial, Helvetica, sans-serif;
     background-color: #045d86;
     padding: 15px 0;
     text-align: center;
@@ -24,7 +24,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-	font-weight: bold;
+    font-weight: bold;
     margin: 0 20px;
     padding: 10px;
     border-radius: 5px;
@@ -32,37 +32,69 @@ nav a {
 }
 
 nav a:hover {
-    background-color:#67afcb ;
+    background-color: #67afcb;
+}
+
+/* Main content styling */
+main {
     color: white;
+    font-family: cursive;
 }
-
-
-main{
-	color: white;
-	font-family: cursive;
-
-.extras-image{
-	max-width: 25%;
-	height: auto;
-}
-
-#hobbies{
-        width: 45%;
-        float: right;
-        padding: 5%;
-}
-
-}
-
-footer{
+#about h2{
 	clear: both;
-	font-size: 1em;
+	padding: 1%;
 	text-align: center;
-	color: #fff;
-	padding: 8%;
 }
 
-footer p a{
-	color: #fff;
-	text-decoration: none;
+/* Styling for hobbies section */
+#hobbies {
+    width: 45%;
+    float: right;
+    padding: 2.5%;
+}
+
+/* Styling for skiing and golfing images with rounded corners */
+#skiing img,
+#golf img {
+    width: 25%;
+    height: auto;
+    border-radius: 15px; /* Adds rounded corners only to skiing and golfing images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*shadow for depth */
+}
+
+/* Footer styling */
+footer {
+    clear: both;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 8%;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Green Text */
+.green {
+    color: #83eb34;
+    font-weight: bold;
+    font-size: large;
+}
+/* blue */
+.blue {
+    color: #d16d10;
+    font-weight: bold;
+    font-size: large;
+}/* orange */
+.orange {
+    color: #d8e708;
+    font-weight: bold;
+    font-size: large;
+}
+/* yello */
+.yellow {
+    color: #1684df;
+    font-weight: bold;
+    font-size: large;
 }
